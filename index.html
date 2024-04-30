@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Sinzq </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: #000000fa;
+            /* Change background color to grey */
+            color: #ffffff;
+            /* Change text color to white */
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        .about-me {
+            line-height: 3;
+            /* Adjust the value as needed */
+        }
+
+        /* Example CSS for spacing between icons */
+        p a {
+            margin-right: 10px;
+            /* Adjust margin between icons as needed */
+        }
+
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header h1 img {
+            margin-left: 10px; /* Adjust the margin as needed */
+            height: 20px; /* Adjust the height of the image */
+        }
+
+        header nav {
+            display: flex;
+        }
+
+        header a {
+            color: #ffffff;
+            /* Change link color to white */
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .fa-brands,
+        .fa-solid {
+            font-size: 14px;
+            /* Adjust the size as needed */
+        }
+
+        header a:hover {
+            color: #cccccc;
+            /* Change link hover color to light grey */
+        }
+
+        h1 {
+            color: #ffffff;
+            /* Change heading color to white */
+        }
+
+        p {
+            color: #ffffff;
+            /* Change paragraph text color to white */
+        }
+
+        a {
+            color: #ffffff;
+            /* Change link color to white */
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #cccccc;
+            /* Change link hover color to light grey */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .project {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            color: #ffffff;
+            /* Change button text color to white */
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            /* Adjusted margin to move buttons above */
+            text-decoration: none;
+        }
+
+        .btn-github {
+            background-color: #333;
+            margin-left: 10px;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        /* New styles for project links */
+        .project-links {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-links p {
+            margin: 2px 0;
+            /* Adjusted margin to remove more line gaps */
+            line-height: 1;
+            /* Adjusted line height */
+        }
+
+        .footer-text {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="section">
+            <h1><img src="./fav.png" alt="Logo"> Sinzq </h1>
+            <nav>
+                <a href="#">HOME &nbsp;</a>
+                <span class="separator">|</span>
+                <a href="#">ABOUT&nbsp;</a>
+                <span class="separator">|</span>
+                <a href="./A.html" target="_blank">ARTICLE</a>
+            </nav>
+        </header>
+
+        <section id="about" class="section">
+            <h2>Hey 👋, I'm Sinzq.</h2>
+            <p class="about-me">I'm a full stack developer who loves to craft interactive designs✨ with modern web
+                technologies. Currently learning backend and databases (Go🧩, MongoDB🍃) while also solidifying my
+                already acquired knowledge of front-end🎨 development.
+                In my free time, I enjoy experimenting with new technologies and contributing to
+                open-source projects.</p>
+            <p> Find Me there 👉
+                <a href="https://github.com/sinzq" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/shivam.sinzh/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:shivam.sinzh@gmail.com"><i class="fa-solid fa-at"></i></a>
+            </p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <h4>Here is some project which are learning 👇</h4>
+            <div class="project-links">
+                <p>14 Apr, 2024 : <a href="#" class="btn">Portfolio Website</a></p>
+                <p>14 Apr, 2024 : <a href="#" class="btn">How to set up Tailwind CSS with Gridsome</a></p>
+                <p>14 Apr, 2024 : <a href="#" class="btn">Build a RestFul API With Node.js, Express & MongoDB</a></p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Technologies</h2>
+            <h4>Here is some technolgies which are learning 👇 </h4>
+            <div class="project-links">
+                <p>14 Apr, 2024 : <a href="#" class="btn">Portfolio Website</a></p>
+                <p>14 Apr, 2024 : <a href="#" class="btn">How to set up Tailwind CSS with Gridsome</a></p>
+                <p>14 Apr, 2024 : <a href="#" class="btn">Build a RestFul API With Node.js, Express & MongoDB</a></p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <footer class="section">
+                <a href="https://github.com/sinzq" target="_blank"> -- sinzq --</a></p>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>
