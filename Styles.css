@@ -1,3 +1,8 @@
+img {
+    margin-top: 10px;
+    border-radius: 90%; /* Make it a circle */
+}
+
 body {
     background-color: #000000fa;
     color: #ffffff;
@@ -6,8 +11,6 @@ body {
     padding: 0;
     scroll-behavior: smooth;
 }
-
-
 
 .about-me {
     line-height: 3;

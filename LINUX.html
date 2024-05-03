@@ -25,78 +25,91 @@
 
         <section id="projects" class="section">
             <h2>Linux daily use commands</h2>
-            <h4>System Information and Management 👇</h4>
+            <h4>-- File and Directory Management 👇</h4>
             <div class="project-links">
-                <p><Span>systeminfo : Displays detailed configuration information about a computer and its operating system.</Span></p>
-                <p><Span>tasklist : Lists all currently running processes on the system</Span></p>
-                <p><Span>taskkill : Terminates a running process using its PID or process name.</Span>
-                </p>
-                <p><Span>msconfig : Opens System Configuration utility to manage system startup, services, and boot options.</Span>
-                </p>
-                <p><Span>shutdown : Allows you to shut down or restart a local or remote computer.</Span>
+                <p><Span>ls: List directory contents.</Span></p>
+                <p><Span>ls -l: Detailed listing.</Span></p>
+                <p><Span>ls -a: List all files, including hidden ones.</Span></p>
+                <p><Span>cd: Change directory.</Span></p>
+                <p><Span>cd .. : Move to the parent directory.</Span></p>
+                <p><span>cd ~ : Move to the home directory.</span></p>
+                <p><span>pwd: Print working directory.</span></p>
+                <p><span>mkdir: Make directory.</span></p>
+                <p><span>mkdir folder_name: Create a new folder.</span></p>
+                <p><span>rm: Remove files or directories.</span></p>
+                <p><span>rm filename: Remove a file.</span></p>
+                <p><span>rm -r directory_name: Remove a directory and its contents recursively.</span></p>
+                <p><span>cp: Copy files or directories.</span></p>
+                <p><span>cp source_file destination_file: Copy a file.</span></p>
+                <p><span>mv: Move or rename files or directories.</span></p>
+                <p><span>mv old_name new_name: Rename a file or directory.</span></p>
+                <p><span>mv source destination: Move a file or directory.</span></p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h4>-- File Viewing and Editing 👇</h4>
+            <div class="project-links">
+                <p><Span>cat: Concatenate and display file content.</Span></p>
+                <p><Span>less: View file content page by page.</Span></p>
+                <p><Span>head: Display the beginning of a file.</Span></p>
+                <p><Span>tail: Display the end of a file.</Span></p>
+                <p><Span>nano: Simple text editor.</Span></p>
+                <p><span>nano filename: Open a file for editing.</span></p>
+                <p><span>vim or vi: Powerful text editor.</span></p>
+                <p><span>vim filename: Open a file for editing.</span></p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h4>-- System Information and Monitoring 👇</h4>
+            <div class="project-links">
+                <p><Span>top: Display Linux processes.</Span></p>
+                <p><Span>ps: Display currently running processes.</Span></p>
+                <p><Span>ps aux: Detailed process listing.</Span></p>
+                <p><Span>df: Show disk space usage.</Span></p>
+                <p><Span>df -h: Human-readable format.</Span></p>
+                <p><span>free: Display amount of free and used memory in the system.</span></p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h4>-- Package Management 👇</h4>
+            <div class="project-links">
+                <p><Span>apt: Advanced Package Tool for managing packages.</Span></p>
+                <p><Span>sudo apt update: Update package lists.</Span></p>
+                <p><Span>sudo apt upgrade: Upgrade installed packages.</Span></p>
+                <p><Span>sudo apt install package_name: Install a new package.</Span></p>
+                <p><Span>sudo apt remove package_name: Remove a package.</Span></p>
+                <p><span>sudo apt autoremove: Remove packages that are no longer needed.</span></p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h4>-- Network Management 👇</h4>
+            <div class="project-links">
+                <p><Span>ifconfig: Display or configure network interface parameters.</Span></p>
+                <p><Span>ping: Send ICMP ECHO_REQUEST to network hosts.</Span></p>
+                <p><Span>ping hostname: Ping a specific host.</Span></p>
+                <p><Span>ssh: Secure Shell for securely accessing remote systems.<Span></p>
+                <p><Span>ssh username@hostname: Connect to a remote host.</Span>
                 </p>
             </div>
         </section>
 
         <section id="projects" class="section">
-            <h4>File and Directory Management: 👇</h4>
+            <h4>-- User and Group Management 👇</h4>
             <div class="project-links">
-                <p><Span>dir: Lists the contents of a directory.</Span></p>
-                <p><Span>tasklist : Lists all currently running processes on the system</Span></p>
-                <p><Span>taskkill : Terminates a running process using its PID or process name.</Span></p>
-                <p><Span>msconfig : Opens System Configuration utility to manage system startup, services, and boot options.</Span></p>
-                <p><Span>shutdown : Allows you to shut down or restart a local or remote computer.</Span>
-                </p>
+                <p><Span>useradd: Create a new user.<Span></p>
+                <p><Span>userdel: Delete a user.</Span></p>
+                <p><Span>passwd: Change user password</Span></p>
+                <p><Span>groups: Display groups a user is in.</Span></p>
+                <p><Span>adduser: Interactive utility for adding a new user.</Span></p>
+                <p><span>deluser: Interactive utility for deleting a user</span></p>
+                <p><span><a href = "./window_commands.txt" Download = "window_commands">Learn more about LinuX commands.... </a></span></p>
             </div>
         </section>
-
-        <section id="projects" class="section">
-            <h4>Networking 👇</h4>
-            <div class="project-links">
-                <p><Span>ipconfig: Displays IP configuration for all network adapters.</Span></p>
-                <p><Span>ping: Sends ICMP Echo Request messages to a specified network host.</Span></p>
-                <p><Span>tracert: Traces the route taken by packets over an IP network.</Span></p>
-                <p><Span>netstat: Displays active TCP connections, ports on which the computer is listening, Ethernet statistics, and more.</Span></p>
-                <p><Span>nslookup: Queries DNS servers for domain name resolution.</Span></p>
-            </div>
-        </section>
-
-        <section id="projects" class="section">
-            <h4>User and Account Management 👇</h4>
-            <div class="project-links">
-                <p><Span>net user: Manages user accounts.</Span></p>
-                <p><Span>net localgroup: Manages local groups on a computer.</Span></p>
-                <p><Span>net share: Manages shared resources.</Span></p>
-                <p><Span>net use: Connects or disconnects a computer from shared resources.</Span></p>
-                <p><Span>gpupdate: Updates Group Policy settings. </Span>
-                </p>
-            </div>
-        </section>
-
-        <section id="projects" class="section">
-            <h4>Security 👇</h4>
-            <div class="project-links">
-                <p><Span>cipher: Displays or alters the encryption of directories and files on NTFS volumes.</Span></p>
-                <p><Span>icacls: Displays or modifies discretionary access control lists (DACLs) on specified files.</Span></p>
-                <p><Span>netsh: Configures advanced network settings.</Span></p>
-                <p><Span>sfc: System File Checker scans and repairs corrupted system files.</Span></p>
-                <p><Span>chkdsk: Checks a disk and displays a status report.</Span>
-                </p>
-            </div>
-        </section>
-
-        <section id="projects" class="section">
-            <h4>Miscellaneous 👇</h4>
-            <div class="project-links">
-                <p><Span>echo: Displays messages, or turns command echoing on or off.</Span></p>
-                <p><Span>type: Displays the contents of a text file.</Span></p>
-                <p><Span>find: Searches for a text string in a file or files.</Span></p>
-                <p><Span>attrib: Displays or changes file attributes.</Span></p>
-                <p><Span>cls: Clears the command prompt window.</Span></p>
-            </div>
-        </section>
-
-
+    
         <section id="contact" class="section">
             <footer class="section">
                 <a href="https://github.com/sinzq" target="_blank"> -- sinzq --</a></p>

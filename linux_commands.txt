@@ -1,0 +1,55 @@
+File Compression and Archiving:
+tar: Tape Archive for combining multiple files into one archive file.
+tar -cvf archive.tar files: Create a new archive.
+tar -xvf archive.tar: Extract files from an archive.
+gzip: Compress or decompress files.
+gzip file: Compress a file.
+gzip -d file.gz: Decompress a compressed file.
+zip and unzip: Create and extract zip archives.
+zip archive.zip files: Create a zip archive.
+unzip archive.zip: Extract files from a zip archive.
+
+System Configuration and Maintenance:
+sudo: Execute commands with superuser privileges.
+sudo command: Execute a command with root privileges.
+chown: Change file owner and group.
+chown user:group file: Change owner and group of a file.
+chmod: Change file permissions.
+chmod permissions file: Change permissions of a file.
+service or systemctl: Control system services.
+sudo service service_name start: Start a service.
+sudo systemctl restart service_name: Restart a service.
+crontab: Schedule tasks to run at specific times.
+crontab -e: Edit the cron table.
+crontab -l: View the cron table.
+
+Text Processing:
+grep: Search text patterns in files.
+grep pattern file: Search for a pattern in a file.
+sed: Stream Editor for performing basic text transformations.
+sed 's/old/new/' file: Replace text in a file.
+awk: Pattern scanning and text processing language.
+awk '{print $1}' file: Print the first column of a file.
+sort: Sort lines of text files.
+sort file: Sort lines alphabetically.
+sort -n file: Sort lines numerically.
+
+System Monitoring and Performance:
+htop: Interactive process viewer.
+sudo htop: Launch htop for system monitoring.
+iotop: Monitor I/O usage by processes.
+sudo iotop: Launch iotop for I/O monitoring.
+netstat: Network statistics.
+netstat -tuln: Display listening ports.
+vmstat: Report virtual memory statistics.
+
+File Transfer:
+scp: Securely copy files between hosts.
+scp file username@hostname:/path/to/destination: Copy file to a remote host.
+rsync: Remote file and directory synchronization.
+rsync options source destination: Sync files between directories or hosts.
+System Information:
+uname: Print system information.
+uname -a: Print all system information.
+lsb_release: Print distribution-specific information.
+lsb_release -a: Print all LSB information.
