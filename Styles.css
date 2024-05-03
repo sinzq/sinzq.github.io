@@ -1,11 +1,17 @@
+:root {
+    --White: #ffffff;
+    --Black : #000000fa;
+    --grey :  #cccccc;
+  }
+
 img {
     margin-top: 10px;
     border-radius: 90%; /* Make it a circle */
 }
 
 body {
-    background-color: #000000fa;
-    color: #ffffff;
+    background-color: var(--Black);
+    color: var(--White);
     font-family: monospace;
     margin: 0;
     padding: 0;
@@ -47,7 +53,7 @@ header nav {
 }
 
 header a {
-    color: #ffffff;
+    color:var(--White);
     text-decoration: none;
     margin-left: 20px;
 }
@@ -58,24 +64,24 @@ header a {
 }
 
 header a:hover {
-    color: #cccccc;
+    color:var(--grey);
 }
 
 h1 {
-    color: #ffffff;
+    color: var(--White);
 }
 
 p {
-    color: #ffffff;
+    color: var(--White);
 }
 
 a {
-    color: #ffffff;
+    color: var(--White);
     text-decoration: none;
 }
 
 a:hover {
-    color: #cccccc;
+    color: var(--grey);
 }
 
 .container {
@@ -111,7 +117,7 @@ a:hover {
 .btn {
     display: inline-block;
     padding: 8px 0;
-    color: #ffffff;
+    color: var(--White);
     margin-bottom: 8px;
     text-decoration: none;
 }
