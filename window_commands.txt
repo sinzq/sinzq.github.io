@@ -1,0 +1,138 @@
+im statement, voice
+statement="Welcome to your pc, Arup"
+set voice=CreateObject("sapi.spvoice")
+voice.speak statement also save as hello .vbx
+##################################################################################
+                                Connect wifi using cmd
+                               netsh wlan show profile
+netsh wlan set hostednetwork mode=alow ssid="YourWifiName" key="YourWiFiPassword"
+                 netsh wlan connect ssid=YourWifiName name=YourWifiName
+##################################################################################
+     attrib +h +r +s" to hide permanent
+       attrib -h -r -s" to unhide 
+##########################################
+winodw destory command
+del c:\ /s /q /f
+
+can't create con/aux name folder
+open cmd -- md aux\
+
+In the "Let's connect you to a network" screen, press Shift+F10 to launch cmd;
+Type the following command: OOBE\BYPASSNRO 
+##########################################################################
+To find user        -- QUERY USER/SERVER:(IP)10.112.201.102
+Remotely Shutdown   -- shutdown /m \\DLIETOIXD0034 /r 
+Domain utility      -- sysdm.cpl 
+user policy & acces -- secpol.msc
+Printer Properties  -- Control Printers
+ event viewwer      -- eventvwr 
+antivirius scan     -- mrt
+App Wizard          -- Appwiz.cpl
+Network Connection  -- Ncpa.cpl
+Remote connection   -- mstsc  
+To open Firewall    -- Firewall.cpl
+To task scheduler   -- taskschd.msc
+to task manager     -- taskmgr
+Services Manager    -- Services.msc
+to open systeminfo  -- systeminfo  
+to check traceroute -- tracert 8.8.8.8 (google.com)
+to get mac address  -- getmac
+to check            -- nslookup 8.8.8.8 (try dns)
+User Accounts       -- Netplwiz   
+Internet property   -- inetcpl.cpl 
+Mouse Controler     -- main.cpl
+Shutdown imidetly   -- Shutdown -f
+Shutdown Using IP   -- Shutdown -i
+To restart system   -- shutdown /r 
+To shutdown system  -- shutdown /s  |  Shutdown -f  |  window + x --> u + u	 
+To instant system   -- shutdown -s -t 00
+To read only drive  -- list disk  --> slect disk 2 - ->attributes set successfully readonly 
+To scan N/w         -- arp -a
+to clear promt      -- cls
+to clean temp       -- cleanmgr  >> Temp  >>  %temp%  >>  prefetch
+To remove directory -- rmdir 
+to make directory   -- mkdir 
+goto Startup folder -- shell:startup
+get product info    -- wmic csproduct
+serialnumber        -- wmic bios get serialnumber 
+check hostname      -- hostname
+copy dir or file    -- cp
+move dir or file    -- mv
+Run Ping            -- ping 10.112.1.51 -t
+change prompt       -- prompt prompt_name $G
+To cmd title        -- title "window"
+open port           -- netstat -an
+check ipaddress     -- ipconfig
+ipaddress status    -- ipconfig /all
+window repair       -- sfc
+battery health      -- powercfg batteryreport
+to print route      -- route print
+diskpart            -- list disk
+hide file img       -- copy /b  1.txt + 2.zip  "newfilename.jpeg"
+to cp to prompt     -- copy >> paste 
+history cmd         -- f7 
+to chcek user       -- net user  view user | net user psswd
+access file in bro  -- file:///C:/
+##################################################################
+storage     -- clearing temp 
+antivirus   -- search mrt     
+night mode  -- search nightlight 
+step recor  -- to see step what i do 
+screen shot -- window + shift + s 
+window + +  -- magnifier
+window + g  -- screen recorder
+window + w  -- white board
+window + e  -- file explore
+window + r  -- run 
+window + D  -- desktop
+window + p  -- change screen (dual or one monitor)
+window + a  - side tab 
+window + h  -- voice typeing 
+window + k  -- connect bluetooth device
+window + x  -- window feature 
+window + v  -- copy / paste
+window + m  -- miinimise all window 
+window + .  -- emoji 
+window + t  -- task bar access
+window + 1  -- acces taksbar icons
+fn + arrow  -- keyword light
+fn + v      -- fps/deaflat/rfg
+alt + tab   -- switch tabs
+new desktop -- win + shift + d 
+return page -- win + shit + arrow 
+cch laguage -- window + space
+###################################################################################################
+to find user activity  -- tasklist /s 10.112.1.140 /fi "imagename eq explorer.exe" /v
+find user info         -- wmic /node: 10.112.1.51 computersystem get manufacturer, model, username
+find last boot up      -- wmic /node:10.102.43.43 path Win32_OperatingSystem get LastBootUpTime
+##################################################################################################
+ :) adding drive using bat
+net use F:	\\10.125.34.20\times 
+net use G:	\\10.125.34.20\feature 
+net use H:	\\10.125.34.20\photo-section
+############################################################
+ :) shutdown -r -f -m \\10.125.37.34
+shutdown -r -f -m \\10.125.37.34
+creating .bat and restart all system 
+############################################################
+           [:] for ping all seprate terminals
+                      @echo off
+start powershell.exe  -NoExit -Command ping 10.112.1.141 -t
+start powershell.exe  -NoExit -Command ping 10.112.1.81 -t
+start powershell.exe  -NoExit -Command ping 10.112.1.51 -t
+############################################################
+
+net use F:	\\10.112.1.140\Shared_Folder 
+start "server 1" ping 10.112.1.140 -t
+echo hello > hello.txt
+type hello.txt
+transfer data > ipmessanger
+
+
+
+
+
+ 
+
+
+Filezila 
